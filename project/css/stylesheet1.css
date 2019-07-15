@@ -1,0 +1,180 @@
+/*중앙 정렬*/
+body{
+    margin: 0 auto;
+    width: 960px;
+}
+/*중앙 정렬 끝*/
+
+/*헤더*/
+.header{
+    background-color: #4CAF50;
+    border-radius: 10px;
+    margin: 0;
+    padding-top: 5px;
+    margin-top: 20px;
+    width: 100%;
+    color: white;
+    width: 100%;
+}
+.header h1{
+    margin: 0;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+.header p{
+    margin: 0;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+/*헤더 끝*/
+
+/*전체 홈페이지 링크*/
+a:link{
+    color: black;
+}
+a:hover{
+    color: yellow;
+}
+a:visited{
+    color: purple;
+}
+a:active{
+    color: red;
+}
+/*전체 홈페이지 링크*/
+
+/*메인 테이블*/
+.middle{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+/*네비게이션 메뉴*/
+.navi{
+    margin: 0;
+    height: 576px;
+    padding-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.navi ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.navi li{
+    background-color: #EAEAEA;
+    padding: 8px;
+    margin: 1px;
+    border-radius: 10px;
+    padding-left: 15px;
+    width: 100%;
+}
+li.sheet{
+    background-color: #4CAF50;
+}
+
+/*네비게이션 메뉴 링크 글자*/
+li a:link{
+    text-align: left;
+    text-decoration: none;
+    color: black;
+}
+li a:active{
+    color: red;
+}
+li a:hover{
+    color: yellow;
+}
+li a:visited{
+    color: purple;
+}
+/*네비게이션 메뉴 끝*/
+
+/*미들 내용*/
+.middle.main h1{
+    margin: 0;
+    padding-top: 15px;
+}
+/*미들 내용 끝*/
+
+/*미들 표*/
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+    text-align: left;
+    padding: 8px;
+    vertical-align: middle;
+}
+tr:nth-child(even){
+    background-color: #F2F2F2;
+}
+th{
+    background-color: #4CAF50;
+    color: white;
+}
+tr:hover{
+    background-color: yellow;
+}
+/*미들 표 끝*/
+
+/*사이드 바*/
+.side{
+    background-color: #3399FF;
+    border-radius: 10px;
+    color: white;
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-right: 10px;
+    width: 100%;
+    height: 576px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.side h2{
+    margin: 0;
+    margin-bottom: 20px;
+}
+.side p{
+    margin: 0;
+    padding-right: 10px;
+}
+/*사이드 바 끝*/
+
+/*메인 테이블 끝*/
+
+/*Layer*/
+*{
+    box-sizing: border-box;
+}
+.middle{
+    overflow: hidden;
+}
+.middle.navi{
+    float: left;
+    width: 25%;
+}
+.middle.main{
+    float: left;
+    padding-left: 10px;
+    padding-right: 20px;
+    width: 50%;
+}
+.middle.side{
+    float: left;
+    width: 25%;
+}
+/*Layer*/
+
+/*footer*/
+.footer{
+    background-color: #D5D5D5;
+    border: 1px solid #BDBDBD;
+}
+.footer p{
+    margin: 0;
+    padding: 10px 15px 10px 15px;
+}
+/*footer 끝*/
